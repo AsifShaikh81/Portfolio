@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
+import { Twitter, X } from "lucide-react";
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -129,6 +130,13 @@ export default function ContactSection() {
           className="text-orange-500 hover:text-yellow-500 text-2xl transition"
         >
           <FaGithub />
+        </a>
+        <a
+          href="https://x.com/AsifShaikh91159"
+          target="_blank"
+          className="text-orange-500 hover:text-yellow-500 text-2xl transition"
+        >
+          <Twitter />
         </a>
       </div>
     </section>

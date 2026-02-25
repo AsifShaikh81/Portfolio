@@ -1,5 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
+import { Github } from "lucide-react";
+import { CgDesignmodo } from "react-icons/cg";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -9,6 +11,7 @@ import {
   FaDatabase,
   FaFigma,
 } from "react-icons/fa";
+import { GiWireframeGlobe } from "react-icons/gi";
 import {
   SiTailwindcss,
   SiNextdotjs,
@@ -17,6 +20,7 @@ import {
   SiFlutter,
   SiPostman,
 } from "react-icons/si";
+import { WiRefresh } from "react-icons/wi";
 
 export default function Skills() {
   const skillCategories = [
@@ -38,15 +42,17 @@ export default function Skills() {
         { icon: <SiExpress className="text-orange-500" />, name: "Express.js" },
         { icon: <SiMongodb className="text-orange-500" />, name: "MongoDB" },
         { icon: <FaDatabase className="text-orange-500" />, name: "REST APIs" },
-        { icon: <SiPostman className="text-orange-500" />, name: "Postman" },
       ],
     },
     {
       title: "Tools & Design",
       skills: [
+        { icon: <Github className="text-orange-500" />, name: "Github" },
+        { icon: <SiPostman className="text-orange-500" />, name: "Postman(Testing)" },
         { icon: <FaFigma className="text-orange-500" />, name: "Figma" },
-        { icon: <SiFlutter className="text-orange-500" />, name: "Flutter" },
-        { icon: <FaFigma className="text-orange-500" />, name: "UI/UX Design" },
+        { icon: <CgDesignmodo className="text-orange-500" />, name: "Uizard" },
+        
+        
       ],
     },
   ];
