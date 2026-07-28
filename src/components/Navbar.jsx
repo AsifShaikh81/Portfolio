@@ -48,7 +48,7 @@ export default function Navbar() {
 
       {/* Contact Button */}
       <button className="px-5 py-2 rounded-full text-white font-semibold bg-linear-to-r from-orange-500 to-yellow-500 hover:opacity-90 transition">
-        <a href="/Asif.pdf" download="Asif.pdf">
+        <a href="/Asif_FS_ME.pdf" download="Asif_FS_ME.pdf">
           Download CV
         </a>
       </button>
