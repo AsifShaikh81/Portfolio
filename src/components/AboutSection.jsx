@@ -28,7 +28,7 @@ export default function AboutSection() {
           </span>
         </h2>
         <p className="text-gray-400 leading-relaxed ">
-         Hey, I’m Asif Shaikh — Full stack web developer who loves bringing ideas to life through clean design and smart code. I enjoy creating websites that not only look good but also feel smooth, fast, and easy to use.I work mainly with React.Js, Next.js, Tailwind CSS, Node.js and   MongoDB, and I’m always learning new things to make my projects better. I like keeping my code simple, efficient, and focused on solving real problems. change this para
+         Hey, I’m Asif Shaikh — Full stack web developer who loves bringing ideas to life through clean design and smart code. I enjoy creating websites that not only look good but also feel smooth, fast, and easy to use.I work mainly with React.Js, Next.js, Tailwind CSS, Node.js and   MongoDB, and I’m always learning new things to make my projects better. I like keeping my code simple, efficient, and focused on solving real problems.
         </p>
         <p className="text-gray-400 leading-relaxed">
           I enjoy working with technologies like React, Next.js, Tailwind CSS, and Node.js to build full-stack web applications that are both 
